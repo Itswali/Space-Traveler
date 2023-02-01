@@ -1,9 +1,15 @@
+import { Route, Routes } from "react-router-dom";
+import Navbar from "./components/Navbar";
+
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1> HELLO TEAM!.</h1>
-      </header>
+      <Navbar />
+      <Routes>
+        <Route path="/">  </Route>
+        <Route path="/Missions" > </Route>
+        <Route path="/space"> </Route>
+      </Routes>
     </div>
   );
 }
