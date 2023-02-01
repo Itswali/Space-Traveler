@@ -7,17 +7,25 @@ export default function Navbar() {
   return (
     <div>
       <nav className="navbar">
+        <div className="head-icon">
       <img className="icon" src={logo} alt="logo" />
-      <h2>SpaceTravelers </h2>
+      <h2>  Space Travelers' Hub </h2>
+        </div>
       <ul className="links">
         <li className="link">
           {' '}
           <Link to="/Missions">Missions</Link>
           {' '}
         </li>
-        <li className="link1">
+        <li className="link">
           {' '}
           <Link to="/Space">SpaceShips</Link>
+          {' '}
+        </li>
+        <span className='horizontal-divider'> </span>
+        <li className="link">
+          {' '}
+          <Link to="/Profile">My Profile</Link>
           {' '}
         </li>
       </ul>

@@ -1,32 +1,11 @@
+@import url(./_navbar.scss);
+
+* {
+  text-decoration: none;
+}
+
 body {
   padding: 20px;
   margin: 0;
 }
 
-.navbar {
-  border: 2px solid black;
-  border-bottom: 1px solid #e8e8e8;
-  display: flex;
-  gap: 120px;
-  flex-direction: row;
-  background-color: #fff;
-  padding: 15px;
-}
-
-h1 {
-  color: #0290ff;
-  background-color: #fff;
-  margin-left: 20px;
-  margin-top: 5px;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-}
-
-.icon {
-  width: 50px;
-}
-
-.links {
-  display: flex;
-  flex-direction: row;
-  gap: 100px;
-}
