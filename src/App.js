@@ -6,8 +6,8 @@ function App() {
     <div className="App">
       <Navbar />
       <Routes>
+        <Route path="/Rockets"> </Route>
         <Route path="/Missions" > </Route>
-        <Route path="/space"> </Route>
         <Route path="/Profile">  </Route>
       </Routes>
     </div>

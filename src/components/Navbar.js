@@ -14,12 +14,12 @@ export default function Navbar() {
       <ul className="links">
         <li className="link">
           {' '}
-          <Link to="/Missions">Missions</Link>
+          <Link to="/Rockets">Rockets</Link>
           {' '}
         </li>
         <li className="link">
           {' '}
-          <Link to="/Space">SpaceShips</Link>
+          <Link to="/Missions">Missions</Link>
           {' '}
         </li>
         <span className='horizontal-divider'> </span>
