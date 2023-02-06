@@ -1,5 +1,7 @@
 import React from 'react';
-import { Button, Image, Stack } from 'react-bootstrap';
+import {
+  Badge, Button, Image, Stack,
+} from 'react-bootstrap';
 import { useDispatch } from 'react-redux';
 import { toggleRocketBooking } from '../redux/rockets/rockets';
 
@@ -12,14 +14,21 @@ const RocketCard = ({ id, name, description, imgUrl, reserved }) => {
   return (
     <Stack direction="horizontal" gap={2} className="p-2">
       <div>
-        <Image src={imgUrl} alt="rocket" width={200} />
+        <Image src={imgUrl} alt="rocket" width={250} />
       </div>
       <Stack>
         <h2>{name}</h2>
+        {reserved ? (
+          <div>
+            <Badge bg="success" pill>
+              Reserved
+            </Badge>
+          </div>
+        ) : null}
         <p>{description}</p>
         <div>
           {reserved ? (
-            <Button variant="danger" onClick={handleClick}>
+            <Button variant="outline-danger" onClick={handleClick}>
               Cancel Reserve
             </Button>
           ) : (

@@ -1,5 +1,7 @@
 import React from 'react';
-import { Alert, Col, Container, ListGroup, Row } from 'react-bootstrap';
+import {
+  Alert, Col, Container, ListGroup, Row,
+} from 'react-bootstrap';
 import { useSelector } from 'react-redux';
 import '../style/style.scss';
 
