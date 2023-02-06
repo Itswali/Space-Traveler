@@ -126,6 +126,7 @@ To to build for the production, execute the following command:
 
 ### Deployment
 
+
 This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
 ### `npm run build` fails to minify
@@ -133,3 +134,81 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+You can deploy this project using [Github Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<!-- AUTHORS -->
+
+## 👥 Authors <a name="authors"></a>
+
+> Mention all of the collaborators of this project.
+
+👤 **Wali-Muhammad**
+
+- GitHub: [@Itswali](https://github.com/Itswali)
+- Twitter: [@Wali-Muhammad](https://twitter.com/WaliMuh94818599)
+- LinkedIn: [@Wali Muhammad](https://www.linkedin.com/in/wali-muhammad-666040244/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+> Describe 1 - 3 features you will add to the project.
+
+- [ ] **add new missiles**
+- [ ] **Feature checking all the reserved rockets and missions **
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- SUPPORT -->
+
+## ⭐️ Show your support <a name="support"></a>
+
+> Write a message to encourage readers to support your project
+
+If you like this project then give it a star ⭐️ 
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+<!-- FAQ (optional) -->
+<!--
+## ❓ FAQ (OPTIONAL) <a name="faq"></a> -->
+<!--
+
+> Add at least 2 questions new developers would ask when they decide to use your project.
+
+- **How to install all the packages used in the app**
+
+  - Just type the command npm install It will automatically install all the dependencies
+
+- **How to Open on browser**
+
+  - npm start coommand will do the trick for you.
+  -->
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
+_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
