@@ -19,7 +19,7 @@ export default function Navbar() {
             </Link>
             {' '}
           </li>
-          <h2>  Space Travelers' Hub </h2>
+          <h2>  Space Travelers Hub </h2>
         </div>
         <ul className="links">
           <li className={`link ${location.pathname === '/Rockets' && 'active'}`}>
