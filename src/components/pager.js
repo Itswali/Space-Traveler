@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import Rocket from '../components/Rockets';
+import Rocket from './Rockets';
 import { fetchRockets } from '../Redux/Rockets/roketsSlice';
 
 const Rockets = () => {
