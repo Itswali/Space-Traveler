@@ -4,13 +4,13 @@ import { addMissions } from '../redux/mission/Misson';
 
 const Missions = () => {
   const dispatch = useDispatch();
-  const missions = useSelector(state => state.missions);
+  const missions = useSelector((state) => state.missions);
 
   useEffect(() => {
     if (missions.length === 0) {
       fetch('https://api.spacexdata.com/v3/missions')
-        .then(res => res.json())
-        .then(data => {
+        .then((res) => res.json())
+        .then((data) => {
           dispatch(addMissions(data));
         });
     }
@@ -20,7 +20,7 @@ const Missions = () => {
     <div>
       <h2>Missions</h2>
       <ul>
-        {missions.map(mission => (
+        {missions.map((mission) => (
           <li key={mission.mission_id}>
             <h3>{mission.mission_name}</h3>
             <p>{mission.description}</p>

@@ -4,19 +4,17 @@ import { addRockets } from '../redux/rockets/Rockets';
 
 const Rocket = () => {
   const dispatch = useDispatch();
-  const rocketsData = useSelector(state => state.rockets);
+  const rocketsData = useSelector((state) => state.rockets);
 
   useEffect(() => {
     if (rocketsData && rocketsData.length === 0) {
       fetch('https://api.spacexdata.com/v3/rockets')
-      .then(data => {
-        console.log(data);
-        console.log('hello');
-        dispatch(addRockets(data));
-      })
-        .then(res => res.json())
-        .then(data => {
-          const selectedData = data.map(rocket => ({
+        .then((data) => {
+          dispatch(addRockets(data));
+        })
+        .then((res) => res.json())
+        .then((data) => {
+          const selectedData = data.map((rocket) => ({
             id: rocket.id,
             rocket_name: rocket.rocket_name,
             description: rocket.description,
@@ -29,18 +27,26 @@ const Rocket = () => {
 
   return (
     <div>
-      {rocketsData && rocketsData.length > 0 ?
-        rocketsData.map(rocket => (
+      {rocketsData && rocketsData.length > 0
+        ? rocketsData.map((rocket) => (
           <div key={rocket.id}>
-            <p>Name: {rocket.rocket_name}</p>
-            <p>Description: {rocket.description}</p>
-            <p>Images: {rocket.flickr_images.join(', ')}</p>
+            <p>
+              Name:
+              {rocket.rocket_name}
+            </p>
+            <p>
+              Description:
+              {rocket.description}
+            </p>
+            <p>
+              Images:
+              {rocket.flickr_images.join(', ')}
+            </p>
           </div>
         ))
-        : <p>Loading...</p>
-      }
+        : <p>Loading...</p>}
     </div>
   );
-}
+};
 
 export default Rocket;
