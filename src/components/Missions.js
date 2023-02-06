@@ -17,7 +17,13 @@ const Missions = () => {
     }
   }, [dispatch, missions.length]);
 
- 
+  const handleJoinMission = (missionId) => {
+    dispatch(joinMission(missionId));
+  };
+
+  const handleLeaveMission = (missionId) => {
+    dispatch(leaveMission(missionId));
+  };
 
   return (
     <div className="mission-container">
