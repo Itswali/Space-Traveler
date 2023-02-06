@@ -16,20 +16,9 @@
     height: 60px;
   }
 
-
-  .link {
-    text-decoration: none;
-    margin-right: 10px;
-
-    &.active {
-      text-decoration: underline;
-    }
-  }
-
   .links {
     list-style: none;
     display: flex;
-    flex-direction: row;
     gap: 20px;
 
     .horizontal-divider {
@@ -37,6 +26,17 @@
       height: 20px;
       border: 1px solid black;
     }
-  
-}
+
+  .link {
+    text-decoration: none;
+    margin-right: 10px;
+    
+    &.active {
+      text-decoration: underline;
+    }
+
+  }
+
+  }
+
 }
