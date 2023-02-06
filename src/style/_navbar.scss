@@ -16,8 +16,7 @@
     height: 60px;
   }
 
-  .links {
-    list-style: none;
+
   .link {
     text-decoration: none;
     margin-right: 10px;
@@ -28,6 +27,7 @@
   }
 
   .links {
+    list-style: none;
     display: flex;
     flex-direction: row;
     gap: 20px;
@@ -37,5 +37,6 @@
       height: 20px;
       border: 1px solid black;
     }
-  }
+  
+}
 }

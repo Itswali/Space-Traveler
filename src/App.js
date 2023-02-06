@@ -9,13 +9,9 @@ function App() {
     <div className="App">
       <Navbar />
       <Routes>
-        <Route path="/Missions"> </Route>
-        <Route path="/space"> </Route>
-        <Route path="/Profile">  </Route>
-        <Route path="/"> </Route>
-        <Route path="/Rockets" element={<Rockets />}> </Route>
-        <Route path="/Missions" element={<Missions />}> </Route>
-        <Route path="/Profile" element={<Profile />}>  </Route>
+        <Route path="/" element={<Rockets />} />
+        <Route path="/Missions" element={<Missions />} />
+        <Route path="/Profile" element={<Profile />} />
       </Routes>
     </div>
   );

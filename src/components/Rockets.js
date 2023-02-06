@@ -24,12 +24,11 @@ const Rocket = () => {
         });
     }
   }, [dispatch, rocketsData]);
-import React from 'react';
 
   return (
     <div>
-      {rocketsData && rocketsData.length > 0
-        ? rocketsData.map((rocket) => (
+      {rocketsData && rocketsData.length > 0 ? (
+        rocketsData.map((rocket) => (
           <div key={rocket.id}>
             <p>
               Name:
@@ -45,10 +44,11 @@ import React from 'react';
             </p>
           </div>
         ))
-        : <p>Loading...</p>}
+      ) : (
+        <p>Loading...</p>
+      )}
     </div>
   );
 };
 
 export default Rocket;
-}
