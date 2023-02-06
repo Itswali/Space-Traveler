@@ -14,8 +14,10 @@ export default function Navbar() {
             {' '}
             <Link to="/">
               {' '}
-              <img className="icon" src={logo} alt="logo" />{' '}
-            </Link>{' '}
+              <img className="icon" src={logo} alt="logo" />
+              {' '}
+            </Link>
+            {' '}
           </li>
           <h2> Space Travelers Hub </h2>
         </div>
@@ -24,20 +26,23 @@ export default function Navbar() {
             className={`link ${location.pathname === '/Rockets' && 'active'}`}
           >
             {' '}
-            <Link to="/">Rockets</Link>{' '}
+            <Link to="/">Rockets</Link>
+            {' '}
           </li>
           <li
             className={`link ${location.pathname === '/Missions' && 'active'}`}
           >
             {' '}
-            <Link to="/Missions">Missions</Link>{' '}
+            <Link to="/Missions">Missions</Link>
+            {' '}
           </li>
           <span className="horizontal-divider"> </span>
           <li
             className={`link ${location.pathname === '/Profile' && 'active'}`}
           >
             {' '}
-            <Link to="/Profile">My Profile</Link>{' '}
+            <Link to="/Profile">My Profile</Link>
+            {' '}
           </li>
         </ul>
       </nav>

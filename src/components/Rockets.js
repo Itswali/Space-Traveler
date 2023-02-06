@@ -4,7 +4,7 @@ import RocketCard from './RocketCard';
 // import { useDispatch, useSelector } from 'react-redux';
 // import { addRockets } from '../redux/rockets/Rockets';
 
-const Rocket = () => {
+const RocketList = () => {
   const rocketsData = [
     {
       id: 1,
@@ -54,4 +54,4 @@ const Rocket = () => {
   );
 };
 
-export default Rocket;
+export default RocketList;
