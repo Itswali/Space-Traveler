@@ -11,6 +11,18 @@ export default function Navbar() {
     <div>
       <nav className="navbar">
         <div className="head-icon">
+          <li className="">
+            {' '}
+            <Link to="/">
+              {' '}
+              <img className="icon" src={logo} alt="logo" />
+              {' '}
+            </Link>
+            {' '}
+          </li>
+          <h2>  Space Travelers Hub </h2>
+        </div>
+        <ul className="links">
           <img className="icon" src={logo} alt="logo" />
           <h2>  Space Travelers Hub </h2>
         </div>
