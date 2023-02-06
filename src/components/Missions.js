@@ -21,7 +21,9 @@ const Missions = () => {
     dispatch(joinMission(missionId));
   };
 
-  
+  const handleLeaveMission = (missionId) => {
+    dispatch(leaveMission(missionId));
+  };
 
   return (
     <div className="mission-container">
