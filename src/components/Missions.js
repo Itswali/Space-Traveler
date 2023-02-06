@@ -15,6 +15,7 @@ const Missions = () => {
         });
     }
   }, [dispatch, missions.length]);
+import React from 'react';
 
   return (
     <div>
@@ -32,3 +33,8 @@ const Missions = () => {
 };
 
 export default Missions;
+      <h1> HELLO MISSIONS</h1>
+
+    </div>
+  );
+}

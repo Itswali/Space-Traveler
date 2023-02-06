@@ -24,6 +24,7 @@ const Rocket = () => {
         });
     }
   }, [dispatch, rocketsData]);
+import React from 'react';
 
   return (
     <div>
@@ -50,3 +51,4 @@ const Rocket = () => {
 };
 
 export default Rocket;
+}
