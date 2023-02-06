@@ -19,7 +19,7 @@ export default function Navbar() {
             className={`link ${location.pathname === '/Rockets' && 'active'}`}
           >
             {' '}
-            <Link to="/Rockets">Rockets</Link>
+            <Link to="/">Rockets</Link>
             {' '}
           </li>
           <li
