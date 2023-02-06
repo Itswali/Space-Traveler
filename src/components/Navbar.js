@@ -10,31 +10,35 @@ export default function Navbar() {
     <div>
       <nav className="navbar">
         <div className="head-icon">
-        <li className="">
-          {' '}
-          <Link to="/"> <img className="icon" src={logo} alt="logo" /> </Link>
-          {' '}
-        </li>
-      <h2>  Space Travelers' Hub </h2>
+          <li className="">
+            {' '}
+            <Link to="/">
+              {' '}
+              <img className="icon" src={logo} alt="logo" />
+              {' '}
+            </Link>
+            {' '}
+          </li>
+          <h2>  Space Travelers Hub </h2>
         </div>
-      <ul className="links">
-        <li className={`link ${location.pathname === '/Rockets' && 'active'}`}>
-          {' '}
-          <Link to="/Rockets">Rockets</Link>
-          {' '}
-        </li>
-        <li className={`link ${location.pathname === '/Missions' && 'active'}`}>
-          {' '}
-          <Link to="/Missions">Missions</Link>
-          {' '}
-        </li>
-        <span className='horizontal-divider'> </span>
-        <li className={`link ${location.pathname === '/Profile' && 'active'}`}>
-          {' '}
-          <Link to="/Profile">My Profile</Link>
-          {' '}
-        </li>
-      </ul>
+        <ul className="links">
+          <li className={`link ${location.pathname === '/Rockets' && 'active'}`}>
+            {' '}
+            <Link to="/Rockets">Rockets</Link>
+            {' '}
+          </li>
+          <li className={`link ${location.pathname === '/Missions' && 'active'}`}>
+            {' '}
+            <Link to="/Missions">Missions</Link>
+            {' '}
+          </li>
+          <span className="horizontal-divider"> </span>
+          <li className={`link ${location.pathname === '/Profile' && 'active'}`}>
+            {' '}
+            <Link to="/Profile">My Profile</Link>
+            {' '}
+          </li>
+        </ul>
       </nav>
     </div>
   );
