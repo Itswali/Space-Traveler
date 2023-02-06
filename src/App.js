@@ -1,19 +1,16 @@
 import { Route, Routes } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Profile from './components/Profile';
-import Rockets from './components/Rockets';
 import Missions from './components/Missions';
+import './style/style.scss';
 
 function App() {
   return (
     <div className="App">
       <Navbar />
       <Routes>
-        <Route path="/Missions"> </Route>
-        <Route path="/space"> </Route>
-        <Route path="/Profile">  </Route>
         <Route path="/"> </Route>
-        <Route path="/Rockets" element={<Rockets />}> </Route>
+        <Route path="/Rockets"> </Route>
         <Route path="/Missions" element={<Missions />}> </Route>
         <Route path="/Profile" element={<Profile />}>  </Route>
       </Routes>
