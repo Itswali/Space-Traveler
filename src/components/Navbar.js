@@ -19,21 +19,27 @@ export default function Navbar() {
             </Link>
             {' '}
           </li>
-          <h2>  Space Travelers Hub </h2>
+          <h2> Space Travelers Hub </h2>
         </div>
         <ul className="links">
-          <li className={`link ${location.pathname === '/Rockets' && 'active'}`}>
+          <li
+            className={`link ${location.pathname === '/Rockets' && 'active'}`}
+          >
             {' '}
-            <Link to="/Rockets">Rockets</Link>
+            <Link to="/">Rockets</Link>
             {' '}
           </li>
-          <li className={`link ${location.pathname === '/Missions' && 'active'}`}>
+          <li
+            className={`link ${location.pathname === '/Missions' && 'active'}`}
+          >
             {' '}
             <Link to="/Missions">Missions</Link>
             {' '}
           </li>
           <span className="horizontal-divider"> </span>
-          <li className={`link ${location.pathname === '/Profile' && 'active'}`}>
+          <li
+            className={`link ${location.pathname === '/Profile' && 'active'}`}
+          >
             {' '}
             <Link to="/Profile">My Profile</Link>
             {' '}

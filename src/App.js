@@ -2,6 +2,8 @@ import { Route, Routes } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Profile from './components/Profile';
 import Missions from './components/Missions';
+import RocketList from './components/Rockets';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './style/style.scss';
 
 function App() {
@@ -9,10 +11,9 @@ function App() {
     <div className="App">
       <Navbar />
       <Routes>
-        <Route path="/"> </Route>
-        <Route path="/Rockets"> </Route>
-        <Route path="/Missions" element={<Missions />}> </Route>
-        <Route path="/Profile" element={<Profile />}>  </Route>
+        <Route path="/" element={<RocketList />} />
+        <Route path="/Missions" element={<Missions />} />
+        <Route path="/Profile" element={<Profile />} />
       </Routes>
     </div>
   );
