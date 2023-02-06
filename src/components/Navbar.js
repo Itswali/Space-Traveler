@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import { Link, useLocation } from 'react-router-dom';
 import logo from '../img/logo.png';
 import '../style/style.scss';
@@ -10,9 +9,7 @@ export default function Navbar() {
   return (
     <div>
       <nav className="navbar">
-        
-          <span className="horizontal-divider"> </span>
-          <li className="link">
+        <div className="head-icon">
           <li className="">
             {' '}
             <Link to="/">
@@ -43,7 +40,6 @@ export default function Navbar() {
           </li>
         </ul>
       </nav>
-
     </div>
   );
 }
