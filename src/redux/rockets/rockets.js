@@ -5,8 +5,6 @@ export const getRocketData = createAsyncThunk('rockets/get', async () => {
   try {
     const res = await axios.get('https://api.spacexdata.com/v3/rockets');
     const data = await res.data;
-    // eslint-disable-next-line
-    console.log('Data: ', data);
     return data;
   } catch (err) {
     // eslint-disable-next-line
@@ -26,9 +24,20 @@ const rocketSlice = createSlice({
   initialState,
   extraReducers(builder) {
     builder
-      .addCase(getRocketData.fulfilled, (state, action) => ({ ...state, status: 'success', data: action.payload }))
-      .addCase(getRocketData.pending, (state) => ({ ...state, status: 'loading' }))
-      .addCase(getRocketData.rejected, (state, action) => ({ ...state, status: 'error', error: action.payload }));
+      .addCase(getRocketData.fulfilled, (state, action) => ({
+        ...state,
+        status: 'success',
+        data: action.payload,
+      }))
+      .addCase(getRocketData.pending, (state) => ({
+        ...state,
+        status: 'loading',
+      }))
+      .addCase(getRocketData.rejected, (state, action) => ({
+        ...state,
+        status: 'error',
+        error: action.payload,
+      }));
   },
 });
 
