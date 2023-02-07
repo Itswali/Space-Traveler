@@ -11,7 +11,6 @@
     - [INSTALL](#install)
     - [Usage](#usage)
     - [Testing](#testing)
-    - [Deployment](#deployment)
   - [👥 Authors ](#-authors-)
   - [🔭 Future Features ](#-future-features-)
   - [🤝 Contributing ](#-contributing-)
@@ -53,7 +52,6 @@
 
 > Add a link to your deployed project.
 
- - [Live Demo Link]() 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -69,13 +67,6 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
-<!--
-Example command:
-
-```sh
- gem install rails
-```
- -->
 
 ### Setup
 Clone this repository to your desired folder:
@@ -131,7 +122,6 @@ You can deploy this project using [Github Pages](https://docs.github.com/en/page
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
 
 👤 **Wali-Muhammad**
 
@@ -151,7 +141,6 @@ You can deploy this project using [Github Pages](https://docs.github.com/en/page
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
 
 - [ ] **Add new missiles**
 - [ ] **Feature checking all the reserved rockets and missions**
@@ -172,8 +161,6 @@ Feel free to check the [issues page](../../issues/).
 <!-- SUPPORT -->
 
 ## ⭐️ Show your support <a name="support"></a>
-
-> Write a message to encourage readers to support your project
 
 If you like this project then give it a star ⭐️ 
 
