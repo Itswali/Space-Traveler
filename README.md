@@ -48,11 +48,10 @@
 
 <!-- LIVE DEMO -->
 
-## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
-
-
+## 🛫 Launch
+ ***[🌐 CLick Here to Launch 🧑‍✈️](https://space-6iji.onrender.com/)***
+ 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
@@ -113,11 +112,6 @@ To to build for the production, execute the following command:
   npm run build
 ```
 
-### Deployment
-
-You can deploy this project using [Github Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
