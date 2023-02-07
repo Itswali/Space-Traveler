@@ -1,18 +1,27 @@
-/* eslint-disable import/no-extraneous-dependencies */
-/* eslint-disable no-unused-vars */
-import TestRenderer from 'react-test-renderer';
-import '@testing-library/jest-dom/extend-expect';
-import { Provider } from 'react-redux';
-import store from '../redux/configureStore';
-import { joinMission } from '../redux/mission/Misson';
+import React from 'react';
+import { useSelector } from 'react-redux';
+import { render } from '@testing-library/react';
+import Missions from '../components/Missions';
 
-describe('Render the missions list in profile page', () => {
-  it('Renders all joined missions correctly into the profile page', () => {
-    const missions = TestRenderer.create(
-      <Provider store={store}>
-        <joinMission />
-      </Provider>,
-    ).toJSON();
-    expect(missions).toMatchSnapshot();
+jest.mock('react-redux', () => ({
+  useDispatch: jest.fn(),
+  useSelector: jest.fn(),
+}));
+
+describe('Missions component', () => {
+  it('matches snapshot', () => {
+    useSelector.mockImplementation((selector) => selector({
+      missions: [
+        {
+          mission_id: '1',
+          mission_name: 'Mars Mission',
+          description: 'A mission to Mars',
+          reserved: false,
+        },
+      ],
+    }));
+
+    const { asFragment } = render(<Missions />);
+    expect(asFragment()).toMatchSnapshot();
   });
 });
