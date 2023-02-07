@@ -3,7 +3,6 @@ import { Container } from 'react-bootstrap';
 import { useDispatch, useSelector } from 'react-redux';
 import { getRocketData } from '../redux/rockets/rockets';
 import RocketCard from './RocketCard';
-// import { addRockets } from '../redux/rockets/Rockets';
 
 const RocketList = () => {
   const dispatch = useDispatch();
