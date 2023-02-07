@@ -1,4 +1,3 @@
-/* eslint-disable import/no-extraneous-dependencies */
 import React from 'react';
 import {
   Alert, Col, Container, ListGroup, Row,
