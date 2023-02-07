@@ -181,20 +181,6 @@ If you like this project then give it a star ⭐️
 
 
 <!-- FAQ (optional) -->
-<!--
-## ❓ FAQ (OPTIONAL) <a name="faq"></a> -->
-<!--
-
-> Add at least 2 questions new developers would ask when they decide to use your project.
-
-- **How to install all the packages used in the app**
-
-  - Just type the command npm install It will automatically install all the dependencies
-
-- **How to Open on browser**
-
-  - npm start coommand will do the trick for you.
-  -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
