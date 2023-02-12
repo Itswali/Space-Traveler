@@ -38,7 +38,6 @@
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
 
 - **You can reserve rocket**
 - **You can joing missions**
@@ -58,7 +57,6 @@
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
 
 To get a local copy up and running, follow these steps.
 
@@ -72,7 +70,7 @@ Clone this repository to your desired folder:
 
 ```sh
   cd my-folder
-  git clone https://github.com/Itswali/React-Group.git .
+  git clone https://github.com/Itswali/Space-Traveler.git .
 ```
 
 
